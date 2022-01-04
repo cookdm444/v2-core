@@ -1,9 +1,9 @@
-pragma solidity =^0.8.0;
+pragma solidity =^0.8.0;;
 
 import './interfaces/IExdefFactory.sol';
 import './UniswapV2Pair.sol';
 
-contract ExdefFactor is IUniswapV2Factory {
+contract ExdefFactory is IUniswapV2Factory {
     address public feeTo;
     address public feeToSetter;
 
